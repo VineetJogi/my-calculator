@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+/* <<<<<<< HEAD
+<<<<<<< HEAD */
 .h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -63,9 +64,9 @@ button{
     background-color: aqua;
 }
 
-.o{
+/* .o{
     background-color:rgb(255, 191, 0);
-=======
+======= */
 .h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -131,7 +132,76 @@ button{
     background-color: aqua;
 }
 
-.o{
+/* .o{
     background-color:rgb(255, 191, 0);
 >>>>>>> 7252c25e56e73868a3ed9128fffecd6a26bbfed0
+======= */
+.h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+body{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.screen{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(193, 193, 193);
+    border-color: black;
+    border: 2px solid;
+    border-radius: 3px;
+    margin: 10px;
+    position: relative;
+    top: -10px;
+    font-size: 48px;
+    font-family: calibri;
+    padding: 9px;
+    text-align: right;
+
+}
+
+.calculator{
+    border: 5px solid;
+    height: 480px;
+    width: 350px;
+    border-color: black;
+    padding: 10px;
+    align-items: center; /**align content works with only wrapped text**/
+    justify-items: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.firstline,.secondline,.thirdline,.lastline{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+button{
+    height: 67.5px;
+    width: 67.5px;
+    font-size: 30px;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.c{
+    background-color: red;
+}
+
+.r{
+    background-color: aqua;
+}
+
+/* .o{
+    background-color:rgb(255, 191, 0);
+>>>>>>> 7252c25e56e73868a3ed9128fffecd6a26bbfed0
+} */
